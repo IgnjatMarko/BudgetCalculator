@@ -1,0 +1,1 @@
+An advanced budget calculator app using JavaScript MVC pattern. This budget calculator helps you do that by entering incomes and expenditures, view how much money is left to save and how much money is being spent. Your data is saved on your browsers localStorage.
