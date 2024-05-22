@@ -276,3 +276,52 @@ h2 {
 .unpaid .item__percentage { box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1); }
 .unpaid:hover .item__description { font-weight: 900; }
 
+/**********************************************
+*** MOBILE RESPONSITIVIY
+**********************************************/
+
+@media(max-width:1024px) {
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding: 25px 55px;
+        margin: 30px auto;
+    }
+
+    .income {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .expenses {
+        float: none;
+        width: 100%;
+    }
+
+}
+
+@media(max-width:800px) {
+
+    body {
+        min-width: 500px;
+    }
+
+    .top {
+        height: 60vh;
+    }
+
+    .bottom {
+        height: 40vh;
+    }
+    
+    .add__container {
+        width: 100%;
+        display: flex;
+    }
+}
+
