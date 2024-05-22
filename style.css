@@ -276,10 +276,6 @@ h2 {
 .unpaid .item__percentage { box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1); }
 .unpaid:hover .item__description { font-weight: 900; }
 
-/**********************************************
-*** MOBILE RESPONSITIVIY
-**********************************************/
-
 @media(max-width:1024px) {
 
     .container {
@@ -290,6 +286,26 @@ h2 {
         gap: 25px;
         padding: 25px 55px;
         margin: 30px auto;
+    }
+
+    .budget {
+        width: 55%;
+    }
+
+    .budget__title {
+        font-size: 32px;
+    }
+    
+    .budget__value {
+        font-size: 66px;
+    }
+
+    .top {
+        height: 60vh;
+    }
+
+    .add__description, .add__value { 
+        font-size: 20px;
     }
 
     .income {
