@@ -32,6 +32,7 @@ body {
 **********************************************/
 
 .top {
+    min-height: 460px;
     height: 40vh;
     background-image: url(back.png);
     background-size: cover;
@@ -301,6 +302,7 @@ h2 {
     }
 
     .top {
+        min-height: 460px;
         height: 60vh;
     }
 
